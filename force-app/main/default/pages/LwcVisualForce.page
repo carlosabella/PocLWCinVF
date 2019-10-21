@@ -1,0 +1,18 @@
+<apex:page >
+    <apex:includeLightning />
+    <div id="container"/>
+    <script>
+        // Lightning App
+        $Lightning.use("c:LwcVfApp", function() {
+          // LWC
+          $Lightning.createComponent("c:myFirstWebComponent",
+              { }, // Attributes if needed
+              "container", // String domLocator (Div where LWC template will be rendered)
+              // callBack function
+              function(cmp) {
+                console.log("Component shown up in VF");
+              }
+          );
+        });
+    </script>
+</apex:page>
