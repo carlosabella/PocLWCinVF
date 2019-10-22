@@ -5,6 +5,9 @@
         "paths": {
             "c/myFirstWebComponent": [
                 "myFirstWebComponent/myFirstWebComponent.js"
+            ],
+            "c/lwcDataService": [
+                "lwcDataService/lwcDataService.js"
             ]
         }
     },
