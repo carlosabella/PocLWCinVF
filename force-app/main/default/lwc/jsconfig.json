@@ -3,11 +3,11 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/myFirstWebComponent": [
-                "myFirstWebComponent/myFirstWebComponent.js"
-            ],
             "c/lwcDataService": [
                 "lwcDataService/lwcDataService.js"
+            ],
+            "c/myFirstWebComponent": [
+                "myFirstWebComponent/myFirstWebComponent.js"
             ]
         }
     },
